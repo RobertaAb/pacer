@@ -21,7 +21,6 @@ public class EquipesModel {
 	@Column(name = "equipe", unique = true, nullable = false)
 	private String equipe;
 	
-	
 	@Column(name = "nome", unique = true,nullable = false)
 	private String nome;
 	
@@ -30,7 +29,8 @@ public class EquipesModel {
 	
 	@Column(name = "cargo", nullable = false)
 	private String cargo;
-	
+
+		
 	public String getAno() {
 		return ano;
 	}
