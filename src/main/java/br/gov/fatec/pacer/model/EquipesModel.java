@@ -21,7 +21,6 @@ public class EquipesModel {
 	@Column(name = "equipe", unique = true, nullable = false)
 	private String equipe;
 	
-	
 	@Column(name = "nome", unique = true,nullable = false)
 	private String nome;
 	
