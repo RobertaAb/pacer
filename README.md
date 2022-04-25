@@ -12,16 +12,21 @@ Forneça dependências 'iniciais' opinativas para simplificar sua configuração
 Configure automaticamente bibliotecas Spring e de terceiros sempre que possível
 Forneça recursos prontos para produção, como métricas, verificações de integridade e configuração externa
 Absolutamente nenhuma geração de código e nenhum requisito para configuração XML
+<br>
 React 
 React faz com que a criação de UIs interativas seja uma tarefa fácil. Crie views simples para cada estado na sua aplicação, e o React irá atualizar e renderizar de forma eficiente apenas os componentes necessários na medida em que os dados mudam.
 Views declarativas fazem com que seu código seja mais previsível e simples de depurar.
 Baseado em componentes
 Crie componentes encapsulados que gerenciam seu próprio estado e então, combine-os para criar UIs complexas.
 Como a lógica do componente é escrita em JavaScript e não em templates, você pode facilmente passar diversos tipos de dados ao longo da sua aplicação e ainda manter o estado fora do DOM.
+<br>
 Heroku
 Seus aplicativos são executados em contêineres inteligentes em um ambiente de tempo de execução totalmente gerenciado, lidamos com tudo o que é crítico para a produção - configuração, orquestração, balanceamento de carga, failovers, log, segurança e muito mais.
 PostgreSQL como serviço confiável e seguro com fácil configuração, criptografia em repouso, dimensionamento simples, bifurcação de banco de dados, proteção contínua e muito mais.
+<br>
 
+Heroku
+Heroku é uma plataforma de nuvem baseada em contêiner totalmente gerenciada, com serviços de dados integrados e um ecossistema poderoso, para implantar e executar aplicativos modernos. A experiência do desenvolvedor Heroku é baseada em uma abordagem centrada em aplicativos para entrega de software e se integra às ferramentas e fluxos de trabalho de desenvolvedor mais populares da atualidade.
 
 Referências Bibliográficas
 
