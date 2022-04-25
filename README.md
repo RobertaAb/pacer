@@ -19,13 +19,15 @@ Heroku é uma plataforma de nuvem baseada em contêiner totalmente gerenciada, c
 <br>
 Seus aplicativos são executados em contêineres inteligentes em um ambiente de tempo de execução totalmente gerenciado, lidamos com tudo o que é crítico para a produção - configuração, orquestração, balanceamento de carga, failovers, log, segurança e muito mais.
 <br>
+
 # PostgreSQL na nuvem
 <br>
 Usaremos o PostgreSQL como serviço confiável e seguro com fácil configuração, criptografia em repouso, dimensionamento simples, bifurcação de banco de dados, proteção contínua e muito mais.
 
 
 
-Referências Bibliográficas
+# Referências Bibliográficas
+
 <br>
 SpringBoot.Visão Geral. Acesso em 25/04/2022 as 14h50 pelo link:
 https://spring-io.translate.goog/projects/spring-boot?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=sc
