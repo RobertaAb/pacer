@@ -29,7 +29,8 @@ public class EquipesModel {
 	
 	@Column(name = "cargo", nullable = false)
 	private String cargo;
-	
+
+		
 	public String getAno() {
 		return ano;
 	}
