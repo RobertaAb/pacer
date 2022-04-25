@@ -2,7 +2,7 @@
  projeto Gestão de Equipes
 
 
-#Spring Boot#
+# Spring Boot
 O Spring Boot facilita a criação de aplicativos independentes baseados em Spring de nível de produção que você pode "apenas executar".
 Temos uma visão otimista da plataforma Spring e das bibliotecas de terceiros para que você possa começar com o mínimo de barulho. A maioria dos aplicativos Spring Boot precisa de configuração mínima do Spring.
 Recursos
@@ -13,13 +13,13 @@ Configure automaticamente bibliotecas Spring e de terceiros sempre que possível
 Forneça recursos prontos para produção, como métricas, verificações de integridade e configuração externa
 Absolutamente nenhuma geração de código e nenhum requisito para configuração XML
 <br>
-#Heroku#
+# Heroku
 <br>
 Heroku é uma plataforma de nuvem baseada em contêiner totalmente gerenciada, com serviços de dados integrados e um ecossistema poderoso, para implantar e executar aplicativos modernos. A experiência do desenvolvedor Heroku é baseada em uma abordagem centrada em aplicativos para entrega de software e se integra às ferramentas e fluxos de trabalho de desenvolvedor mais populares da atualidade.
 <br>
 Seus aplicativos são executados em contêineres inteligentes em um ambiente de tempo de execução totalmente gerenciado, lidamos com tudo o que é crítico para a produção - configuração, orquestração, balanceamento de carga, failovers, log, segurança e muito mais.
 <br>
-PostgreSQL como serviço confiável e seguro com fácil configuração, criptografia em repouso, dimensionamento simples, bifurcação de banco de dados, proteção contínua e muito mais.
+Usaremos o # PostgreSQL como serviço confiável e seguro com fácil configuração, criptografia em repouso, dimensionamento simples, bifurcação de banco de dados, proteção contínua e muito mais.
 
 
 
