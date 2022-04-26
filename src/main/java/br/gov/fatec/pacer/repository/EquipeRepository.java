@@ -5,9 +5,9 @@ import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import br.gov.fatec.pacer.model.EquipesModel;
+import br.gov.fatec.pacer.model.EquipeModel;
 
 @Repository
-public interface EquipesRepository extends JpaRepository<EquipesModel, UUID> {
+public interface EquipeRepository extends JpaRepository<EquipeModel, UUID> {
 
 }

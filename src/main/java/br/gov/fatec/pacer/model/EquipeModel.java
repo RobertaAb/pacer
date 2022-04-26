@@ -5,8 +5,8 @@ import java.util.UUID;
 import javax.persistence.*; 
 
 @Entity
-@Table(name = "equipes")
-public class EquipesModel {
+@Table(name = "equipe")
+public class EquipeModel {
 	
 	@Id 
 	@GeneratedValue(strategy = GenerationType.AUTO)

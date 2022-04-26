@@ -6,30 +6,25 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.gov.fatec.pacer.dto.EquipesDto;
-import br.gov.fatec.pacer.service.EquipesService;
+import br.gov.fatec.pacer.dto.RespostaDto;
+import br.gov.fatec.pacer.service.RespostaService;
 
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
-@RequestMapping("/api")
-public class EquipesController {
+@RequestMapping("/resposta")
+public class RespostaController {
 
 	@Autowired
-	EquipesService equipesService;
+	RespostaService respostasService;
 
-	@PostMapping("/equipe")
-	public ResponseEntity<Object> saveEquipes(@RequestBody @Valid EquipesDto equipesDto) {
-		return ResponseEntity.status(HttpStatus.CREATED).body(equipesService.save(equipesDto));
-
+	@PostMapping
+	public ResponseEntity<Object> saveRespostas(@RequestBody @Valid RespostaDto respostasDto){	
+		return ResponseEntity.status(HttpStatus.CREATED).body(respostasService.save(respostasDto));
 	}
-	@GetMapping("/contact")
-    public ResponseEntity<?> getContact(){
-        return ResponseEntity.ok("Teste Realizado com sucesso!");
-    }
+
 }

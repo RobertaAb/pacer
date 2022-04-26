@@ -11,20 +11,20 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.gov.fatec.pacer.dto.RespostasDto;
-import br.gov.fatec.pacer.service.RespostaService;
+import br.gov.fatec.pacer.dto.EquipeDto;
+import br.gov.fatec.pacer.service.EquipeService;
 
 @RestController
 @CrossOrigin(origins = "*", maxAge = 3600)
-@RequestMapping("/respostas")
-public class RespostasController {
+@RequestMapping("/equipe")
+public class EquipeController {
 
 	@Autowired
-	RespostaService respostasService;
+	EquipeService equipesService;
 
 	@PostMapping
-	public ResponseEntity<Object> saveRespostas(@RequestBody @Valid RespostasDto respostasDto){	
-		return ResponseEntity.status(HttpStatus.CREATED).body(respostasService.save(respostasDto));
-	}
+	public ResponseEntity<Object> saveEquipes(@RequestBody @Valid EquipeDto equipesDto) {
+		return ResponseEntity.status(HttpStatus.CREATED).body(equipesService.save(equipesDto));
 
+	}
 }
