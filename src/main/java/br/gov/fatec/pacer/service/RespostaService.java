@@ -9,19 +9,19 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.gov.fatec.pacer.dto.RespostasDto;
-import br.gov.fatec.pacer.model.RespostasModel;
-import br.gov.fatec.pacer.repository.RespostasRepository;
+import br.gov.fatec.pacer.dto.RespostaDto;
+import br.gov.fatec.pacer.model.RespostaModel;
+import br.gov.fatec.pacer.repository.RespostaRepository;
 
 @Service
 public class RespostaService {
 	
 	@Autowired  
-	RespostasRepository respostasRepository;
+	RespostaRepository respostasRepository;
 	
 	@Transactional
-	public RespostasModel save(RespostasDto respostasDto) {
-		var respostasModel = new RespostasModel();
+	public RespostaModel save(RespostaDto respostasDto) {
+		var respostasModel = new RespostaModel();
 		BeanUtils.copyProperties(respostasDto, respostasModel);
 		respostasModel.setRegistrationDate(LocalDateTime.now(ZoneId.of("UTC")));
 		return respostasRepository.save(respostasModel);
