@@ -1,0 +1,65 @@
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Oraculum",
+    "nome": "Thiago Fernandes Canonici",
+    "email": "thiago.canonici@fatec.sp.gov.br",
+    "cargo": "SM"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Oraculum",
+    "nome": "Rodrigo Félix da Silva",
+    "email": "roodrigo.felix@hotmail.com",
+    "cargo": "PO"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Oraculum",
+    "nome": "Henrique Kenji Nawa",
+    "email": "henriquenawa@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Oraculum",
+    "nome": "Rodrigo Hideaki Ando",
+    "email": "hideaki.a.rodrigo@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Oraculum",
+    "nome": "Sandro de Araújo",
+    "email": "shaka_522@hotmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Oraculum",
+    "nome": "Pedro Landim",
+    "email": "henriquep35036@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Oraculum",
+    "nome": "Arthur Akiyoshi Zukeram",
+    "email": "akiyoshi.zuke@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Oraculum",
+    "nome": "João Vitor de Oliveira Soeiro",
+    "email": "joaovitorsoeiro@gmail.com",
+    "cargo": "DEV"
+}
+

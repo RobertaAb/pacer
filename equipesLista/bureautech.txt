@@ -1,0 +1,57 @@
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Bureautech",
+    "nome": "Beatriz Coutinho",
+    "email": "beatrizmcout@gmail.com",
+    "cargo": "SM"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Bureautech",
+    "nome": "Charles Ramos",
+    "email": "charles.ramos@fatec.sp.gov.br",
+    "cargo": "PO"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Bureautech",
+    "nome": "Ana Clara Graciano",
+    "email": "acgsjc@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Bureautech",
+    "nome": "Caique do Nascimento",
+    "email": "caiquemigueldes@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Bureautech",
+    "nome": "Daniel Oliveira",
+    "email": "daniel.oliveira96@fatec.sp.gov.br",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Bureautech",
+    "nome": "Denis Lima",
+    "email": "denislima99@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Bureautech",
+    "nome": "Wesley Dias",
+    "email": "wesley.dias3@fatec.sp.gov.br",
+    "cargo": "DEV"
+}
+

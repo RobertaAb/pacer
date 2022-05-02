@@ -1,0 +1,57 @@
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Pycemaker",
+    "nome": "Guilherme Oliveira Pontes Alvarenga",
+    "email": "guilhermeundy31@gmail.com",
+    "cargo": "SM"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Pycemaker",
+    "nome": "Guilherme Madeira da Silveira",
+    "email": "guilhermemadeirastream@gmail.com",
+    "cargo": "PO"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Pycemaker",
+    "nome": "Pedro Cruz Oliveira Araújo",
+    "email": "pedro.araujo27@fatec.sp.gov.br",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Pycemaker",
+    "nome": "João Pedro Rabello Brasil de Mecenas",
+    "email": "joaomecenas@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Pycemaker",
+    "nome": "Diego Rodrigo da Silva",
+    "email": "diegorodrigo@zoho.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Pycemaker",
+    "nome": "Mateus Prestes Teodoro Alves",
+    "email": "mateus.alves5@fatec.sp.gov.br",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Pycemaker",
+    "nome": "Davi Silva Martins das Neves",
+    "email": "davi.neves@fatec.sp.gov.br",
+    "cargo": "DEV"
+}
+
