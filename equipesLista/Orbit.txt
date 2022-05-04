@@ -1,0 +1,57 @@
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Orbit",
+    "nome": "Jodan Lima Galas",
+    "email": "jodangalas00@gmail.com",
+    "cargo": "SM"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Orbit",
+    "nome": "Luis Guilherme Belem de Sousa",
+    "email": "luis.sousa10@fatec.sp.gov.br",
+    "cargo": "PO"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Orbit",
+    "nome": "Cristiane de Fátima Rafael Rodrigues",
+    "email": "cristiane.rodrigues7@fatec.sp.gov.br",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Orbit",
+    "nome": "Washington Henrique Fernandes de Sousa",
+    "email": "washington.sousa01@fatec.sp.gov.br",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Orbit",
+    "nome": "Fabrício Cursino dos Santos",
+    "email": "fabriciocursino09@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Orbit",
+    "nome": "José Danrley da Silva",
+    "email": "jose.silva478@fatec.sp.gov.br",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Orbit",
+    "nome": "Raquel Rodrigues Ribeiro",
+    "email": "raquel.ribeiro2@fatec.sp.gov.br",
+    "cargo": "DEV"
+}
+

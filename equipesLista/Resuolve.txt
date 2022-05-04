@@ -1,0 +1,57 @@
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Resuolve",
+    "nome": "Evandro Rodrigues de Mello Braga",
+    "email": "evandro.braga1@fatec.sp.gov.br",
+    "cargo": "SM"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Resuolve",
+    "nome": "Cauane Andrade",
+    "email": "cauane.emanuela@hotmail.com",
+    "cargo": "PO"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Resuolve",
+    "nome": "Leonardo Messias Rodrigues Lopes",
+    "email": "messiasleonardo98@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Resuolve",
+    "nome": "Matheus Amauri de Jesus Campos",
+    "email": "matheus.campos14@fatec.sp.gov.br",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Resuolve",
+    "nome": "Lucas Hiroaki Okazaki",
+    "email": "l.h.okazaki@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Resuolve",
+    "nome": "Rafael Marques ",
+    "email": "rafaelmarquescps9@gmail.com",
+    "cargo": "DEV"
+}
+{
+    "ano": "2022",
+    "semestre": "1",
+    "equipe": "Resuolve",
+    "nome": "Samuel Xavier",
+    "email": "krusader.1982@gmail.com",
+    "cargo": "DEV"
+}
+
