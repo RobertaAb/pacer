@@ -18,19 +18,26 @@ public class EquipeModel {
 	@Column(name = "semestre", nullable = false)
 	private String semestre;
 	
-	@Column(name = "equipe", unique = true, nullable = false)
-	private String equipe;
+	@Column(name = "equipe", nullable = false)
+	private String name;
 	
-	@Column(name = "nome", unique = true,nullable = false)
-	private String nome;
+	@Column(name = "integrante_name", unique = true,nullable = false)
+	private String integrante;
 	
 	@Column(name = "email", nullable = false)
 	private String email;
 	
 	@Column(name = "cargo", nullable = false)
-	private String cargo;
+	private String papel;
 
-		
+	public UUID getId() {
+		return id;
+	}
+
+	public void setId(UUID id) {
+		this.id = id;
+	}
+
 	public String getAno() {
 		return ano;
 	}
@@ -46,29 +53,21 @@ public class EquipeModel {
 	public void setSemestre(String semestre) {
 		this.semestre = semestre;
 	}
-	
-	public UUID getId() {
-		return id;
+
+	public String getName() {
+		return name;
 	}
 
-	public void setId(UUID id) {
-		this.id = id;
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public String getEquipe() {
-		return equipe;
+	public String getIntegrante() {
+		return integrante;
 	}
 
-	public void setEquipe(String equipe) {
-		this.equipe = equipe;
-	}
-
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setIntegrante(String integrante) {
+		this.integrante = integrante;
 	}
 
 	public String getEmail() {
@@ -79,14 +78,11 @@ public class EquipeModel {
 		this.email = email;
 	}
 
-	public String getCargo() {
-		return cargo;
+	public String getPapel() {
+		return papel;
 	}
 
-	public void setCargo(String cargo) {
-		this.cargo = cargo;
+	public void setPapel(String papel) {
+		this.papel = papel;
 	}
-
-	
-
 }
