@@ -14,7 +14,7 @@ Forneça recursos prontos para produção, como métricas, verificações de int
 Absolutamente nenhuma geração de código e nenhum requisito para configuração XML
 <br>
 
-
+mvn spring-boot:run
 
 # Referências Bibliográficas
 
