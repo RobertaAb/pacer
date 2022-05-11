@@ -1,5 +1,5 @@
 # pacerSpringBoot
- projeto Gestão de Equipes
+ projeto Gestão de Equipes e Laboratório de BAnco de Dados V
 
 
 # Spring Boot
