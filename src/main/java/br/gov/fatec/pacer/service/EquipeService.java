@@ -17,9 +17,8 @@ import br.gov.fatec.pacer.repository.EquipeRepository;
 public class EquipeService {
 	@Autowired
 	EquipeRepository equipeRepository;
-	
-	
 
+	
 	@Transactional
 	public EquipeModel save(EquipeDto equipeDto) {
 		var equipeModel = new EquipeModel();
@@ -32,7 +31,8 @@ public class EquipeService {
 		return equipeRepository.findAll();
 	}
 
-	public EquipeModel getById(UUID id){
+	public EquipeModel getById(Integer id){
+
 		return equipeRepository.findById(id).get();
 }
 }

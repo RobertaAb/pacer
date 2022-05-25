@@ -27,8 +27,8 @@ public class EquipeController {
 	EquipeService equipeService;
 
 	@PostMapping
-	public ResponseEntity<Object> saveEquipes(@RequestBody @Valid EquipeDto equipesDto) {
-		return ResponseEntity.status(HttpStatus.CREATED).body(equipeService.save(equipesDto));
+	public ResponseEntity<Object> saveEquipes(@RequestBody @Valid EquipeDto equipeDto) {
+		return ResponseEntity.status(HttpStatus.CREATED).body(equipeService.save(equipeDto));
 
 	}
 	@GetMapping
@@ -36,7 +36,7 @@ public class EquipeController {
 		return ResponseEntity.ok(equipeService.getAll());
 		
 	}
-	@GetMapping("/teste/{id}")
+	@GetMapping("/{id}")
 	public ResponseEntity<Object>getbyId(@PathVariable(value="id") UUID id){
 		return ResponseEntity.ok(equipeService.getById(id));
 		
