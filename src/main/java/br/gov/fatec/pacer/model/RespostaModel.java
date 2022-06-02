@@ -2,7 +2,6 @@ package br.gov.fatec.pacer.model;
 
 
 import java.time.LocalDateTime;
-import java.util.UUID;
 
 import javax.persistence.*;
 
@@ -13,7 +12,7 @@ public class RespostaModel {
 
 	@Id 
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private UUID id;
+	private Long id;
 	
 	@Column(name = "sprint",unique = true, nullable = false)
 	private String sprint;
@@ -30,11 +29,11 @@ public class RespostaModel {
 	@Column(name = "entregaResultado", nullable = false)
 	private Integer entregaResultado;
 	
-	public UUID getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(UUID id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -80,7 +79,6 @@ public class RespostaModel {
 	}
 
 	public void setRegistrationDate(LocalDateTime now) {
-		// TODO Auto-generated method stub
 		
 	}
 	

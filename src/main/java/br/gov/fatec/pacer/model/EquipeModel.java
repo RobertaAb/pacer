@@ -1,8 +1,12 @@
 package br.gov.fatec.pacer.model;
 
-import java.util.UUID;
 
-import javax.persistence.*; 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table; 
 
 @Entity
 @Table(name = "equipe")
@@ -10,7 +14,7 @@ public class EquipeModel {
 	
 	@Id 
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private UUID id;
+	private Long id;
 	
 	@Column(name = "ano", nullable = false)
 	private String ano;
@@ -27,8 +31,8 @@ public class EquipeModel {
 	@Column(name = "email", nullable = false)
 	private String email;
 	
-	@Column(name = "cargo", nullable = false)
-	private String cargo;
+	@Column(name = "papel", nullable = false)
+	private String papel;
 
 		
 	public String getAno() {
@@ -47,11 +51,11 @@ public class EquipeModel {
 		this.semestre = semestre;
 	}
 	
-	public UUID getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(UUID id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -80,12 +84,20 @@ public class EquipeModel {
 	}
 
 	public String getCargo() {
-		return cargo;
+		return papel;
 	}
 
-	public void setCargo(String cargo) {
-		this.cargo = cargo;
+	public void setCargo(String papel) {
+		this.papel = papel;
 	}
+
+    public String getPapel() {
+        return papel;
+    }
+
+    public void setPapel(String papel) {
+        this.papel = papel;
+    }
 
 	
 

@@ -49,10 +49,10 @@ public class EquipeDto {
 		this.email = email;
 	}
 	public String getCargo() {
-		return cargo;
+		return papel;
 	}
-	public void setCargo(String cargo) {
-		this.cargo = cargo;
+	public void setCargo(String papel) {
+		this.papel = papel;
 	}
 	
 }
