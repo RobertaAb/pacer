@@ -1,7 +1,6 @@
 package br.gov.fatec.pacer.service;
 
 import java.util.List;
-import java.util.UUID;
 
 import javax.transaction.Transactional;
 
@@ -17,8 +16,6 @@ import br.gov.fatec.pacer.repository.EquipeRepository;
 public class EquipeService {
 	@Autowired
 	EquipeRepository equipeRepository;
-	
-	
 
 	@Transactional
 	public EquipeModel save(EquipeDto equipeDto) {
@@ -27,12 +24,10 @@ public class EquipeService {
 		return equipeRepository.save(equipeModel);
 
 	}
-
 	public List<EquipeModel> getAll(){
 		return equipeRepository.findAll();
 	}
-
-	public EquipeModel getById(UUID id){
+	public EquipeModel getById(Long id){
 		return equipeRepository.findById(id).get();
 }
 }
