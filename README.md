@@ -39,3 +39,8 @@ URI
 postgres://ugbafvtsjhfdmi:0204d555b5c69bc4d928158b8e5e580138cd44954d08b22a28a928080cc7d40f@ec2-34-198-186-145.compute-1.amazonaws.com:5432/d46b5hfnauar3j
 Heroku CLI
 heroku pg:psql postgresql-fluffy-04093 --app pacer20022dashboard
+
+
+
+
+ssh 'robertaab-pacer-bmhqcgcz5tk#xsWY2okg2w4wlG7a-TgAbJXK1skpBxQp@robertaab-pacer-bmhqcgcz5tk.ssh.ws-us47.gitpod.io'
